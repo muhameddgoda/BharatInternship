@@ -1,49 +1,49 @@
-# Iris Flower Classification Project
 
-## Project Overview
 
-This project aims to classify Iris flower species based on four features: sepal length, sepal width, petal length, and petal width. The dataset used for this project is the famous Iris dataset. The goal is to build and evaluate machine learning models to accurately predict the species of an Iris flower given its measurements.
+# Internship Projects with Bharat Team
 
-## Motivation
+## Overview
 
-Inspired by my admiration for a person who makes everything sweet and easy, this project is dedicated to her. She is like the Iris flower—cute, beautiful, kind, honest, and adorable. I Love You, Lamis!
+This repository contains two projects completed during an internship with the Bharat team. The projects focus on two different domains: Iris species classification and a movie recommendation system. Both projects demonstrate the application of various data science and machine learning techniques using popular Python libraries. The work was done in collaboration with Lamis Abdullah.
 
-## Collaborators
+## Project 1: Iris Species Classification
 
-This project was developed in collaboration with LamisAbdullah.
+### Objective
+The goal of this project is to classify Iris species based on their morphological features using machine learning algorithms.
 
-## Dataset
+### Approach
+1. **Data Collection and Preprocessing:** The Iris dataset was loaded, cleaned, and prepared for analysis.
+2. **Exploratory Data Analysis (EDA):** Various visualizations were created to understand the distribution and relationships between the features.
+3. **Model Selection and Training:** Several machine learning models, including Logistic Regression, K-nearest Neighbors, and Decision Tree, were trained and evaluated on the dataset.
+4. **Evaluation:** The models were evaluated using accuracy metrics, and the best-performing model was identified.
 
-The dataset used in this project is the Iris dataset, which contains 150 observations of iris flowers. Each observation includes the following features:
-- Sepal Length
-- Sepal Width
-- Petal Length
-- Petal Width
-- Species (target variable)
-
-The dataset can be found in the file `IRIS.csv`.
-
-## Installation
-
-To run the code, you need to have Python installed along with the following libraries:
-- scikit-learn (version 1.5.0)
+### Libraries Used
 - pandas
-- numpy
+- sklearn (scikit-learn)
 - matplotlib
 - seaborn
 
-You can install the necessary libraries using the following command:
-```bash
-pip install scikit-learn==1.5.0 pandas numpy matplotlib seaborn
-```
-## Results
+## Project 2: Movie Recommendation System
 
-The project applies three machine learning models—Logistic Regression, K-nearest Neighbors, and Decision Tree—to classify Iris species. The accuracy of each model is printed after training and evaluating on the test data.
+### Objective
+The aim of this project is to build a content-based movie recommendation system that suggests movies similar to a given movie based on their descriptions and genres.
 
-## Contact
+### Approach
+1. **Data Collection and Preprocessing:** The movies dataset was loaded, and relevant columns were selected and combined to form a 'tags' column.
+2. **Feature Extraction:** A CountVectorizer was used to convert the 'tags' column into a feature vector.
+3. **Similarity Computation:** Cosine similarity was calculated between the feature vectors to find similarities between movies.
+4. **Recommendation Function:** A recommendation function was implemented to suggest the top 5 movies similar to a given movie.
+5. **Serialization:** The processed data and similarity matrix were saved using pickle for future use.
 
-For any questions or feedback, please reach out to the project collaborators.
+### Libraries Used
+- pandas
+- sklearn (scikit-learn)
+- pickle
+
+## Collaboration
+These projects were completed in collaboration with Lamis Abdullah, who contributed significantly to the data preprocessing, model training, and evaluation processes. The collaborative effort ensured the successful completion of the projects and the development of robust machine learning models.
+
+## Conclusion
+The projects showcase the application of various data science techniques and machine learning algorithms to solve real-world problems. The experience gained from this internship with the Bharat team has been invaluable in enhancing practical knowledge and skills in the field of data science and machine learning.
 
 ---
-
-Thank you for your interest in the Iris Flower Classification Project!
