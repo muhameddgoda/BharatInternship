@@ -40,10 +40,6 @@ pip install scikit-learn==1.5.0 pandas numpy matplotlib seaborn
 
 The project applies three machine learning models—Logistic Regression, K-nearest Neighbors, and Decision Tree—to classify Iris species. The accuracy of each model is printed after training and evaluating on the test data.
 
-## Acknowledgements
-
-This project was inspired by and dedicated to LamisAbdullah, who has been a source of joy and inspiration.
-
 ## Contact
 
 For any questions or feedback, please reach out to the project collaborators.
